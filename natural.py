@@ -33,7 +33,3 @@ def generate_text(chain, length=100):
 
     return ' '.join(result)
 
-if __name__ == '__main__':
-    chain = train_markov_chain(corpus)
-    text = generate_text(chain, length=1000)
-    print(text)
