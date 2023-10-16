@@ -5,7 +5,7 @@ from collections import defaultdict
 import random
 
 nltk.download('gutenberg')
-corpus = gutenberg.raw('shakespeare-hamlet.txt')
+corpus = gutenberg.raw('abc.txt')
 
 def train_markov_chain(corpus):
     # Tokenize the corpus
